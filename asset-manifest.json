@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/olx-mini/static/css/main.14a0ab0a.css",
+    "main.js": "/olx-mini/static/js/main.25a5673a.js",
+    "static/js/787.6409d255.chunk.js": "/olx-mini/static/js/787.6409d255.chunk.js",
+    "index.html": "/olx-mini/index.html",
+    "main.14a0ab0a.css.map": "/olx-mini/static/css/main.14a0ab0a.css.map",
+    "main.25a5673a.js.map": "/olx-mini/static/js/main.25a5673a.js.map",
+    "787.6409d255.chunk.js.map": "/olx-mini/static/js/787.6409d255.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14a0ab0a.css",
+    "static/js/main.25a5673a.js"
+  ]
+}
