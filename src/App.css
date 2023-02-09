@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+.cate{
+  list-style:none;
+}
+.cate>li {
+  display: inline-block;
+  margin-left: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.drop {
+  font-weight: 700;
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list>a {
+  color: #000;
+  text-decoration: none !important;
+  transition: 0.3s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.list>a:hover{
+  color: rgb(16, 196, 196);
+}
+
+.box{
+  height: 350px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.box h2{
+  font-size: 1.6rem;
+  color: rgb(16, 196, 196);
+  font-weight: bold;
+  margin-top: 12px;
+}
+.box h3{
+ font-size: 1.3rem;
+}
+.min{
+  color: rgb(4, 92, 4);
+  font-weight: 600;
+  margin-left: 50px;
+}
+
+.btn{
+  background-color: rgb(216, 216, 216);
+  border: none;
+  color: rgb(110, 110, 110);
+  padding: 12px;
+  font-size: 1.2rem;
+}
+.btn:hover{
+  background-color: rgb(2, 148, 50);
+}
+
+.btn-primary{
+  background-color: rgb(2, 148, 50);
   color: white;
 }
+.btn-primary:hover{
+  background-color:rgb(216, 216, 216) ;
+  color: rgb(110, 110, 110);
 
-.App-link {
-  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.foot p{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 25px;
+}
+.foot{
+  background-color: #f3f4f5;
+}
+
+
+.pp{
+  color: rgb(6, 77, 158) !important;
+  font-weight: 600;
 }
